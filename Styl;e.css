@@ -12,26 +12,26 @@ input,button,textarea,select {font: inherit;} @media (prefers-reduced-motion: re
 #2d2f31 - dark gray
 #ffffff - white */
 
+body {
+    background-color: #2d2d2d;
+}
+
 .main {
+    border: #ff0000 3px solid;
     display: grid;
     height: 100vh;
-    grid-template-areas: 
-    "AAAA BBBB BBBB"
-    "CCCC BBBB BBBB"
-    "CCCC BBBB BBBB";
+    width: 100vh;
+    grid-template-columns: 1fr 2fr;
 }
 
 .box-1 {
-    background-color: red;
-    grid-area: A;
+    background-color: #dcdcdc;
 }
 
 .box-2 {
-    background-color: chartreuse;
-    grid-area: B;
+    background-color: #fff;
 }
 
 .box-3 {
     background-color: aqua;
-    grid-area: C;
 }
