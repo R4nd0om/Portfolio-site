@@ -11,6 +11,7 @@ input,button,textarea,select {font: inherit;} @media (prefers-reduced-motion: re
 /* #dcdcdc - gray
 #2d2f31 - dark gray
 #ffffff - white */
+/* border: #ff0000 1px solid; */
 
 body {
     background-color: #2d2d2d;
@@ -23,8 +24,8 @@ body {
     grid-template-columns: 0.6fr 1.5fr;
     grid-template-rows: 0.6fr 1fr;
     display: grid;
-    min-height: 100%;
-    max-width: 70%;
+    min-height: 100vh;
+    max-width: 1003px;
 }
 
 .box-1 {
@@ -37,6 +38,14 @@ body {
     grid-row-start: 1;
     grid-row-end: 3;
     background-color: #fff;
+}
+
+.name {
+    border: #ff0000 1px solid;
+    margin-top: 5vh;
+    margin-left: 5vh;
+    width: 140px;
+    font-size: 35px;
 }
 
 .box-3 {
