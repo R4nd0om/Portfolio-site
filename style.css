@@ -43,9 +43,9 @@ body {
 .name {
     border: #ff0000 1px solid;
     margin-top: 5vh;
-    margin-left: 5vh;
-    width: 140px;
-    font-size: 35px;
+    margin-left: 10vh;
+    width: 160px;
+    font-size: 43px;
 }
 
 .box-3 {
