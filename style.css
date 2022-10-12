@@ -15,8 +15,8 @@ input,button,textarea,select {font: inherit;} @media (prefers-reduced-motion: re
 
 body {
     background-color: #2d2d2d;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 .main {
@@ -24,8 +24,10 @@ body {
     grid-template-columns: 0.6fr 1.5fr;
     grid-template-rows: 0.6fr 1fr;
     display: grid;
-    min-height: 100vh;
+    min-height: 1108px;
+    max-height: 100vh;
     max-width: 1003px;
+    color: #2d2d2d;
 }
 
 .box-1 {
@@ -40,14 +42,49 @@ body {
     background-color: #fff;
 }
 
+.title {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.subtitle {
+    font-size: 20px;
+}
+
+.info {
+    width: 550px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
 .name {
-    border: #ff0000 1px solid;
-    margin-top: 5vh;
-    margin-left: 10vh;
-    width: 160px;
-    font-size: 43px;
+    margin-top: 70px;
+    margin-left: 100px;
+    width: 180px;
+    font-size: 45px;
+    color: #2d2d2d;
+}
+
+.dev {
+    color: #2d2d2d;
+    padding-left: 10px;
+    width: 230px;
+    background-color: #dcdcdc;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 20px;
 }
 
 .box-3 {
     background-color: #2d2d2d;
+}
+
+.infoB3 {
+    color: #dcdcdc;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+#Y {
+    margin-left: 50px;
 }
