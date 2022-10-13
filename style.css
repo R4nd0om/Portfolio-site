@@ -33,6 +33,8 @@ body {
 
 .box-1 {
     background-color: #dcdcdc;
+    width: 286px;
+    height: 416px;
 }
 
 .box-2 {
@@ -91,12 +93,25 @@ body {
     margin-left: 76px;
 }
 
-.ico {
-    display: inline-flex;
+.ico img {
+    display: inline-block;
+    margin-left: 20px;
 }
 
-.hobby {
-    display: flexbox;
+#progr {
+    margin-left: 125px;
+}
+
+#boxg {
+    margin-left: 118px;
+}
+
+#psc {
+    margin-left: 88px;
+}
+
+#hw {
+    word-spacing: 50px;
 }
 
 .box-3 {
